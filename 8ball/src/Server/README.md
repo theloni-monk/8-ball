@@ -1,1 +1,3 @@
-# This will be written after the client code is completed
+# Sever will be written after inclusive client is completed
+
+Ball and Table in this package extend AbstractBall and AbstractTable and include all collision logic
