@@ -4,5 +4,5 @@ import util.pVector;
 abstract public class AbstractBall{
     protected pVector position;
     protected pVector velocity;
-    protected double radius;
+    final double radius = 6; //cm ~ 2.375 inches (standard billiard ball size)
 }

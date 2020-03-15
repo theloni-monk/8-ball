@@ -4,6 +4,7 @@ import java.util.ArrayList;
 abstract public class AbstractTable{
     ArrayList<AbstractBall> balls;
 
-    double length;
-    double width;
+    // stanard billiard table dimensions
+    final double length = 304.8; //cm ~ 10ft 
+    final double width = 152.4; //cm ~ 5ft 
 }
