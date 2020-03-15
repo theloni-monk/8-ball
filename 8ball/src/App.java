@@ -1,5 +1,3 @@
-package Client;
-
 import processing.core.PApplet;
 
 // written as an all inclusive independent client application by using the classes from the server package
