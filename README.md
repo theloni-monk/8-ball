@@ -2,4 +2,6 @@
 
 Witten as a as practice for his at the time upcoming AP Cs A exam.
 
+## Note: this is blatantly over-engineered
+
 This could be done much more simply and with much more pre-written code, but ultimately it is an exercise in writing java-centric code.
