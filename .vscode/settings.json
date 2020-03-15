@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "C:\\Program Files\\processing-3.5.4\\core\\library\\core.jar"
+    ],
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.dependency.packagePresentation": "hierarchical"
+}
