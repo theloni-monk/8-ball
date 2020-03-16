@@ -3,14 +3,28 @@ public class pVector{
     public double x;
     public double y;
 
+    public pVector(){
+        this.x = 0;
+        this.y = 0;
+    }
+
     public pVector(double x, double y){
         this.x = x;
         this.y = y;
     }
 
+    public pVector(double[] p){
+        this.x = p[0];
+        this.y = p[1];
+    }
+
     public pVector(double r, double theta, boolean polar){
         this.x = r * Math.cos(theta);
         this.y = r * Math.sin(theta);
+    }
+
+    public pVector copy(){
+        return new pVector(this.x, this.y);
     }
 
     // cartesian operations:
@@ -34,4 +48,9 @@ public class pVector{
     public double heading(){
         return Math.atan(this.y/this.x);
     }
+
+    public pVector normalize(){
+        return new pVector(1, this.heading(), true);
+    }
+
 }
